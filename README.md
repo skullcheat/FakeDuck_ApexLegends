@@ -1,10 +1,10 @@
 # FakeDuck_ApexLegends
 External c++ code for Fakeduck Apex Legends
 // FakeDuck ON
-			if (GetAsyncKeyState(VK_NUMPAD9)) {
-				write<float>(oBaseAddress + OFFSET_TIMESCALE + 0x68, 0);
-			}
-			// FakeDuck OFF
-			else {
-				write<float>(oBaseAddress + OFFSET_TIMESCALE + 0x68, 1);
-			}
+if (GetAsyncKeyState(VK_NUMPAD9)) {
+write<float>(oBaseAddress + OFFSET_TIMESCALE + 0x68, 0);
+	}
+// FakeDuck OFF
+else {
+write<float>(oBaseAddress + OFFSET_TIMESCALE + 0x68, 1);
+}
